@@ -1,5 +1,5 @@
 #!/bin/sh
-# You can use this command into your terminal: bash multiple-clone.sh *.txt
+# You can use this command into your terminal to clone all repository listed on repo.txt file: bash multiple-clone.sh *.txt
 readarray array <<<$(cat "$@")
 
 #mkdir -p ~/git && cd ~/git
